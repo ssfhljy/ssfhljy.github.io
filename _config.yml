@@ -3,6 +3,8 @@ pygments: true
 plugins: ./_plugins
 paginate: 8
 
+exclude: ['_samples/']
+
 safe: false
 
 #站点基础配置
