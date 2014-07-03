@@ -14,37 +14,42 @@ feed: /atom.xml
 
 #菜单配置
 nav:
-  - text: 首页
+  - text: Home
     url: /index.html
     icon: icon-home
     class: home
-  - text: 文章归档
+  - text: Archives
     url: /archives.html
     icon: icon-reorder
     class: none
-  - text: 关于我
-    url: /contact.html
-    icon: icon-envelope-alt
+  - text: Tags
+    url: /tags.html
+    icon: icon-flag
     class: none
-  - text: 联系我
-    url: http://www.zhanxin.info/contact.html
-    icon: icon-heart
-    class: none
-  - text: 博客源代码
-    url: https://github.com/pizn/iLotus
+  - text: Projects
+    url: https://github.com/ssfhljy
     icon: icon-github
     class: none
-
+  - text: Links
+    url: /links.html
+    icon: icon-heart
+    class: none
+  - text: About
+    url: /about.html
+    icon: icon-envelope-alt
+    class: none
 page:
-  - text: 文章分类
+  - text: Archives
     url: /archives.html
     last: true
-  - text: 友情链接
+  - text: Links
     url: /links.html
     last: true
-  - text: 关于我
-    url: /contact.html
+  - text: About
+    url: /about.html
+    last: true
+  - text: Tags
+    url: /tags.html
     last: false
-
 author:
   name: PIZn
