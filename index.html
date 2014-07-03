@@ -1,8 +1,8 @@
 ---
 layout: default
 title:
-description: This is a personal blog site of a software developer. It is based on Jekyll and originated PIZn's client-side design.
-keywords: ssfhljy, software, development, programming, application, technology, Jekyll, GitHub
+description: 这是 PIZn 的又一个博客，它是基于 Jekyll 搭建起来的。在这里，不仅仅是用来快速记录工作，学习，生活的一点一滴的地方，更是 PIZn 对 Jekyll 的学习和使用的一次有意义的实践。
+keywords: PIZn, GitHub, Jekyll, Plugins, Works, Archives, Quotes, Violet, css, html, javascript, wordpress, logo, design, geek
 ---
 <section class="lotus-logo fn-clear">
     <hgroup class="violet-site">
@@ -18,7 +18,7 @@ keywords: ssfhljy, software, development, programming, application, technology, 
 </article>
 <section class="lotus-double fn-clear">
     <article class="article article-first">
-    <h3>Articles</h3>
+    <h3>最新文章</h3>
         <ul>
             {% for npost in site.posts limit:3 offset:2   %}
             <li><a href="{{ npost.url }}" pubdate="{{ npost.date | date_to_utc | date: '%Y-%m-%d' }}" title="{{ npost.title }}" rel="bookmark">{{ npost.title }}</a></li>
@@ -26,7 +26,7 @@ keywords: ssfhljy, software, development, programming, application, technology, 
         </ul>
     </article>
     <article class="article article-last">
-    <h3>Pages</h3>
+    <h3>相关页面</h3>
     <ul>
         <li>
             {% for page in site.page %}
