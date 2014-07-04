@@ -1,4 +1,4 @@
-markdown: kramdown  #rdiscount
+markdown: Maruku #kramdown  #rdiscount
 pygments: true
 plugins: ./_plugins
 paginate: 8
