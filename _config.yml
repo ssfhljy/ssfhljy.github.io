@@ -29,7 +29,7 @@ nav:
     icon: icon-flag
     class: none
   - text: Projects
-    url: https://github.com/ssfhljy
+    url: /projects.html
     icon: icon-github
     class: none
   - text: Links
